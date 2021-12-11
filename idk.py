@@ -5,7 +5,7 @@ import statistics
 import pandas as pd
 import csv
 
-df = pd.read("StudentsPerfomance.csv")
+df = pd.read_csv("StudentsPerfomance.csv")
 data = df("reading score").tolist()
 
 mean = sum(data)/ len(data)
